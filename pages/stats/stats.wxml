@@ -1,0 +1,59 @@
+<!--pages/stats/stats.wxml - 学习统计-->
+<view class="page-container stats-page {{_theme === 'dark' ? 'theme-dark' : ''}}">
+  <navigation-bar title="学习统计" back="{{true}}" color="{{_theme === 'dark' ? 'white' : 'black'}}" background="{{_theme === 'dark' ? '#1E293B' : '#FFFFFF'}}">
+  </navigation-bar>
+
+  <view class="empty-container" wx:if="{{records.length === 0}}">
+    <text class="empty-icon">📊</text>
+    <text class="empty-text">暂无练习记录</text>
+    <text class="empty-hint">开始练习后这里会有学习数据</text>
+  </view>
+
+  <view wx:if="{{records.length > 0}}">
+    <!-- 总览 -->
+    <view class="stats-overview fade-in">
+      <view class="overview-item">
+        <text class="overview-value">{{summary.totalPractices}}</text>
+        <text class="overview-label">总练习次数</text>
+      </view>
+      <view class="overview-item">
+        <text class="overview-value">{{summary.totalWords}}</text>
+        <text class="overview-label">总练习词数</text>
+      </view>
+      <view class="overview-item">
+        <text class="overview-value">{{summary.avgAccuracy}}%</text>
+        <text class="overview-label">平均正确率</text>
+      </view>
+      <view class="overview-item">
+        <text class="overview-value">{{summary.bestWPM}}</text>
+        <text class="overview-label">最佳WPM</text>
+      </view>
+    </view>
+
+    <!-- 时间筛选 -->
+    <view class="time-filter">
+      <text class="filter-item {{filterType === 'all' ? 'active' : ''}}" bindtap="onFilter" data-type="all">全部</text>
+      <text class="filter-item {{filterType === 'week' ? 'active' : ''}}" bindtap="onFilter" data-type="week">本周</text>
+      <text class="filter-item {{filterType === 'month' ? 'active' : ''}}" bindtap="onFilter" data-type="month">本月</text>
+    </view>
+
+    <!-- 记录列表 -->
+    <view class="records-list">
+      <view class="record-item" wx:for="{{filteredRecords}}" wx:key="date">
+        <view class="record-header">
+          <text class="record-date">{{item.dateStr}}</text>
+          <text class="record-dict">{{item.dictId}}</text>
+        </view>
+        <view class="record-stats">
+          <text class="record-stat-item">词汇: {{item.total}}</text>
+          <text class="record-stat-item">正确: {{item.correct}}</text>
+          <text class="record-stat-item success">准确率: {{item.accuracy}}%</text>
+          <text class="record-stat-item highlight">WPM: {{item.wpm}}</text>
+        </view>
+        <text class="record-time">用时: {{item.timeFormatted}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="safe-bottom"></view>
+</view>

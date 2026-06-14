@@ -1,0 +1,89 @@
+<!--pages/index/index.wxml - 首页/词库选择-->
+<view class="page-container index-page {{_theme === 'dark' ? 'theme-dark' : ''}}">
+  <navigation-bar title="TypeWords" back="{{false}}" color="{{_theme === 'dark' ? 'white' : 'black'}}" background="{{_theme === 'dark' ? '#1E293B' : '#FFFFFF'}}">
+  </navigation-bar>
+
+  <!-- 头部 -->
+  <view class="index-header fade-in">
+    <view class="header-title-row">
+      <text class="app-title">TypeWords</text>
+      <text class="app-subtitle">Qwerty Learner</text>
+    </view>
+    <text class="app-desc">键盘打字学英语，高效记忆单词</text>
+    <!-- 快速统计 -->
+    <view class="quick-stats" wx:if="{{summaryStats.totalPractices > 0}}">
+      <view class="quick-stat-item">
+        
+        
+      </view>
+      
+      
+    </view>
+  </view>
+
+  <!-- 词库选择 -->
+  <view class="section-card fade-in">
+    <text class="card-hint card-hint-top">{{currentDict ? currentDict.description || '已选择词库，点击开始学习' : '请先选择一本词典开始学习'}}</text>
+    <view class="card-header dict-card-header">
+      <view class="dict-title-row">
+        <text class="card-icon">📖</text>
+        <text class="card-title">{{currentDict ? currentDict.name : '未选择词典'}}</text>
+      </view>
+      <view class="dict-btn-row" wx:if="{{!currentDict}}">
+        <button class="btn-select-dict btn-full" bindtap="onTapDictList">选择词典</button>
+      </view>
+      <view class="dict-btn-row" wx:else>
+        <button class="btn-continue-learning" bindtap="onTapContinueLearning">继续学习</button>
+        <button class="btn-change-dict" bindtap="onTapDictList">更改词典</button>
+      </view>
+    </view>
+  </view>
+
+  <!-- 统计 -->
+  <view class="section-card fade-in">
+    <view class="card-header">
+      <view class="card-header-left">
+        <text class="card-icon">📊</text>
+        <text class="card-title">统计</text>
+      </view>
+      <text class="link-text" bindtap="onTapStats">学习记录</text>
+    </view>
+    <view class="stats-row">
+      <view class="stat-item">
+        <text class="stat-value">{{summaryStats.todayDuration}}</text>
+        <text class="stat-label">今日时长</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-value">{{summaryStats.totalDays}}</text>
+        <text class="stat-label">累计天数</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-value">{{summaryStats.totalDuration}}</text>
+        <text class="stat-label">总时长</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 今日任务 -->
+  <view class="section-card fade-in">
+    <view class="card-header">
+      <view class="card-header-left">
+        <text class="card-icon">📋</text>
+        <text class="card-title">今日任务</text>
+      </view>
+    </view>
+    <view class="stats-row stats-row-2">
+      <view class="stat-item">
+        <text class="stat-value">{{todayTask.newWords}}</text>
+        <text class="stat-label">新单词</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-value">{{todayTask.reviewWords}}</text>
+        <text class="stat-label">待复习</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部安全区域 -->
+  <view class="safe-bottom"></view>
+</view>

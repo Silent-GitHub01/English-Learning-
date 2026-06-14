@@ -1,0 +1,114 @@
+/* pages/stats/stats.wxss */
+.stats-page {
+  min-height: 100vh;
+  background-color: var(--color-bg);
+}
+
+/* 总览 */
+.stats-overview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md);
+}
+
+.overview-item {
+  background-color: var(--color-bg-card);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  text-align: center;
+  box-shadow: 0 2rpx 8rpx var(--color-shadow);
+}
+
+.overview-value {
+  display: block;
+  font-size: var(--font-size-xxl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+}
+
+.overview-label {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-tertiary);
+  margin-top: 4rpx;
+}
+
+/* 时间筛选 */
+.time-filter {
+  display: flex;
+  gap: var(--spacing-sm);
+  padding: 0 var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
+}
+
+.filter-item {
+  padding: 8rpx 24rpx;
+  border-radius: var(--radius-full);
+  background-color: var(--color-bg-tertiary);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.filter-item.active {
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+}
+
+/* 记录列表 */
+.records-list {
+  padding: 0 var(--spacing-md);
+}
+
+.record-item {
+  background-color: var(--color-bg-card);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  margin-bottom: var(--spacing-sm);
+  box-shadow: 0 2rpx 8rpx var(--color-shadow);
+}
+
+.record-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-xs);
+}
+
+.record-date {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-primary);
+}
+
+.record-dict {
+  font-size: var(--font-size-xs);
+  color: var(--color-primary);
+  background-color: var(--color-primary-bg);
+  padding: 2rpx 12rpx;
+  border-radius: var(--radius-sm);
+}
+
+.record-stats {
+  display: flex;
+  gap: var(--spacing-md);
+  flex-wrap: wrap;
+}
+
+.record-stat-item {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-secondary);
+}
+
+.record-stat-item.success {
+  color: var(--color-success);
+}
+
+.record-stat-item.highlight {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+.record-time {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-tertiary);
+  margin-top: var(--spacing-xs);
+}

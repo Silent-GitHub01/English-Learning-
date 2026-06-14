@@ -1,0 +1,133 @@
+<!--pages/practice/practice.wxml - 单词打字练习核心页面-->
+<view class="page-container practice-page {{_theme === 'dark' ? 'theme-dark' : ''}}">
+  <navigation-bar
+    title="{{dictName}}"
+    back="{{true}}"
+    delta="{{0}}"
+    color="{{_theme === 'dark' ? 'white' : 'black'}}"
+    background="{{_theme === 'dark' ? '#1E293B' : '#FFFFFF'}}"
+    bind:back="onBackToHome">
+  </navigation-bar>
+
+  <!-- 顶部状态栏 -->
+  <view class="practice-header">
+    <view class="header-left">
+      <text class="progress-text">{{currentWordIndex + 1}} / {{chapterWords.length}}</text>
+    </view>
+    <view class="header-center">
+      <text class="timer-text">⏱ {{timeStr}}</text>
+    </view>
+    <view class="header-right">
+      <text class="wpm-text">WPM: {{wpm}}</text>
+    </view>
+  </view>
+
+  <!-- 进度条 -->
+  <view class="progress-bar-container">
+    <view class="progress-bar-fill" style="width: {{progressPercent}}%"></view>
+  </view>
+
+  <!-- 加载中 -->
+  <view class="loading-container" wx:if="{{loading}}">
+    <view class="loading-spinner"></view>
+    <text class="loading-text">加载词库中...</text>
+  </view>
+
+  <!-- 练习内容区 -->
+  <view class="practice-content" wx:if="{{!loading && !finished}}" bindtap="onTapPage">
+    <view class="word-display-area">
+      <!-- 音标（最顶部） -->
+      <view class="word-phonetic" wx:if="{{currentWordPhonetic && !reverseMode}}">
+        <text class="phonetic-text">{{soundType === 'us' ? '美' : '英'}} [{{currentWordPhonetic}}]</text>
+      </view>
+
+      <!-- 单词释义 -->
+      <view class="word-meaning" wx:if="{{!reverseMode || showWord}}">
+        <view class="meaning-item" wx:for="{{currentWordTrans}}" wx:key="index" wx:for-item="item">
+          <text class="pos-tag" wx:if="{{item.pos}}">{{item.pos}}</text>
+          <text class="cn-text">{{item.cn}}</text>
+        </view>
+      </view>
+      <!-- 翻转模式：显示释义 -->
+      <view class="word-trans-area" wx:if="{{reverseMode && !showWord}}">
+        <text class="trans-text">{{currentWordTranslation}}</text>
+      </view>
+
+      <!-- 单词字母 -->
+      <view class="word-text {{!showWord ? 'word-hidden' : ''}} {{isShaking ? 'shake' : ''}}" wx:if="{{!reverseMode || showWord}}">
+        <text 
+          wx:for="{{currentWordChars}}" 
+          wx:key="index"
+          class="word-char {{item.status === 'correct' ? 'char-correct' : ''}} {{item.status === 'error' ? 'char-error' : ''}} {{item.status === 'current' ? 'char-current' : ''}} {{!wordVisible && item.status === 'pending' ? 'char-hidden' : ''}}"
+        >{{item.char}}</text>
+      </view>
+
+      <!-- 空状态 -->
+      <view class="word-placeholder" wx:if="{{currentWordChars.length === 0}}">
+        <text class="placeholder-text">点击屏幕开始</text>
+      </view>
+      <view class="word-actions">
+        <text class="action-btn" bindtap="onTapPronunciation">🔊 发音</text>
+        <text class="action-btn" bindtap="onTapSkip">已掌握</text>
+        <text class="action-btn" bindtap="onTapHide">{{wordVisible ? '🙈 隐藏' : '👁 显示'}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 完成统计弹窗 -->
+  <view class="finish-overlay {{finished ? 'show' : ''}}" wx:if="{{finished}}">
+    <view class="finish-card fade-in-up">
+      <view class="finish-icon">🎉</view>
+      <text class="finish-title">本章节完成!</text>
+      
+      <view class="stats-grid">
+        <view class="stat-item">
+          <text class="stat-value">{{stats.accuracy}}%</text>
+          <text class="stat-label">正确率</text>
+        </view>
+        <view class="stat-item">
+          <text class="stat-value">{{stats.wpm}}</text>
+          <text class="stat-label">WPM</text>
+        </view>
+        <view class="stat-item">
+          <text class="stat-value">{{stats.timeFormatted}}</text>
+          <text class="stat-label">用时</text>
+        </view>
+        <view class="stat-item">
+          <text class="stat-value">{{stats.correct}}/{{stats.total}}</text>
+          <text class="stat-label">正确/总数</text>
+        </view>
+      </view>
+
+      <!-- 错词列表 -->
+      <view class="wrong-words-section" wx:if="{{stats.wrong > 0}}">
+        <text class="section-title">错词 ({{stats.wrong}}) 已自动加入错词本</text>
+        <scroll-view class="wrong-words-list" scroll-y>
+          <view wx:for="{{wrongWordList}}" wx:key="name" class="wrong-word-item">
+            <text class="wrong-word">{{item.name}}</text>
+            <text class="wrong-word-trans">{{item.trans[0].cn}}</text>
+          </view>
+        </scroll-view>
+      </view>
+
+      <view class="finish-actions">
+        <button class="btn btn-outline" bindtap="onRetryChapter">重练本章</button>
+        <button class="btn btn-primary" bindtap="onNextChapter" wx:if="{{hasNextChapter}}">下一章</button>
+        <button class="btn btn-outline" bindtap="onBackToList" wx:if="{{!hasNextChapter}}">返回首页</button>
+      </view>
+    </view>
+  </view>
+
+  <!-- 隐藏输入框 - 用于捕获键盘输入 -->
+  <input 
+    class="hidden-input"
+    type="text"
+    focus="{{inputFocus}}"
+    value="{{inputValue}}"
+    bindinput="onKeyboardInput"
+    bindblur="onInputBlur"
+    adjust-position="{{false}}"
+    cursor-spacing="0"
+    maxlength="1"
+  />
+</view>

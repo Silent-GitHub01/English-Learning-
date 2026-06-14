@@ -1,0 +1,89 @@
+/* pages/wrong-book/wrong-book.wxss */
+.wrong-book-page {
+  min-height: 100vh;
+  background-color: var(--color-bg);
+}
+
+.wrong-stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-md) var(--spacing-lg);
+}
+
+.wrong-total {
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
+.wrong-clear {
+  font-size: var(--font-size-sm);
+  color: var(--color-error);
+  padding: 4rpx 16rpx;
+}
+
+.wrong-list {
+  padding: 0 var(--spacing-md);
+}
+
+.wrong-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-md);
+  background-color: var(--color-bg-card);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-sm);
+  box-shadow: 0 2rpx 8rpx var(--color-shadow);
+}
+
+.wrong-item-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4rpx;
+}
+
+.wrong-word {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
+.wrong-trans {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.wrong-meta {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-tertiary);
+}
+
+.wrong-item-right {
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: center;
+}
+
+.wrong-play {
+  font-size: 36rpx;
+  padding: 8rpx;
+}
+
+.wrong-delete {
+  font-size: 28rpx;
+  color: var(--color-error);
+  padding: 8rpx;
+  width: 48rpx;
+  height: 48rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrong-actions {
+  padding: var(--spacing-lg) var(--spacing-md);
+  padding-bottom: var(--safe-bottom);
+}

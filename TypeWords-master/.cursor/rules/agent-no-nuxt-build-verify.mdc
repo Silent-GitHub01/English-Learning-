@@ -1,0 +1,11 @@
+---
+description: Agent 模式改代码后不必跑 nuxt build 做验证
+alwaysApply: true
+---
+
+# Agent：勿用 Nuxt build 收尾验证
+
+在 **Agent 模式**下，若本次对话中**已修改代码**，任务结束时**不要**再执行 `pnpm -F @typewords/nuxt build`（或等价的 Nuxt 生产构建）来检查是否报错。
+
+- 依赖编辑器的类型检查、lint、以及用户本地/CI 的构建即可。
+- 仅在用户**明确要求**跑该构建、或排查与构建/打包直接相关的问题时，再执行上述命令。

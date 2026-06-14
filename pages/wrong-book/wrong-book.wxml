@@ -1,0 +1,44 @@
+<!--pages/wrong-book/wrong-book.wxml - 错词本-->
+<view class="page-container wrong-book-page {{_theme === 'dark' ? 'theme-dark' : ''}}">
+  <navigation-bar title="错词本" back="{{true}}" color="{{_theme === 'dark' ? 'white' : 'black'}}" background="{{_theme === 'dark' ? '#1E293B' : '#FFFFFF'}}">
+  </navigation-bar>
+
+  <!-- 空状态 -->
+  <view class="empty-container" wx:if="{{wrongWords.length === 0}}">
+    <text class="empty-icon">📕</text>
+    <text class="empty-text">错词本为空</text>
+    <text class="empty-hint">练习中出错的单词会自动加入这里</text>
+  </view>
+
+  <!-- 统计 -->
+  <view class="wrong-stats" wx:if="{{wrongWords.length > 0}}">
+    <text class="wrong-total">共 {{wrongWords.length}} 个错词</text>
+    <text class="wrong-clear" bindtap="onClearAll">清空</text>
+  </view>
+
+  <!-- 错词列表 -->
+  <view class="wrong-list" wx:if="{{wrongWords.length > 0}}">
+    <view 
+      class="wrong-item fade-in-up" 
+      wx:for="{{wrongWords}}" 
+      wx:key="name"
+    >
+      <view class="wrong-item-left">
+        <text class="wrong-word">{{item.name}}</text>
+        <text class="wrong-trans">{{item.trans[0].cn}}</text>
+        <text class="wrong-meta">错{{item.wrongCount}}次 · {{item.dictId}}</text>
+      </view>
+      <view class="wrong-item-right">
+        <text class="wrong-play" data-word="{{item.name}}" bindtap="onPlaySound">🔊</text>
+        <text class="wrong-delete" data-name="{{item.name}}" data-dictid="{{item.dictId}}" bindtap="onDelete">✕</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 底部操作 -->
+  <view class="wrong-actions" wx:if="{{wrongWords.length > 0}}">
+    <button class="btn btn-primary btn-block" bindtap="onStartPractice">开始复习</button>
+  </view>
+
+  <view class="safe-bottom"></view>
+</view>

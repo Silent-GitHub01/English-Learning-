@@ -1,0 +1,83 @@
+/* pages/setting/setting.wxss */
+.setting-page {
+  min-height: 100vh;
+  background-color: var(--color-bg);
+}
+
+.setting-section {
+  margin-bottom: var(--spacing-md);
+}
+
+.section-label {
+  display: block;
+  padding: var(--spacing-sm) var(--spacing-lg);
+  font-size: var(--font-size-xs);
+  color: var(--color-text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 1rpx;
+}
+
+.setting-card {
+  background-color: var(--color-bg-card);
+  border-radius: var(--radius-lg);
+  margin: 0 var(--spacing-md);
+  overflow: hidden;
+  box-shadow: 0 2rpx 8rpx var(--color-shadow);
+}
+
+.setting-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-bottom: 1rpx solid var(--color-border-light);
+}
+
+.setting-item:last-child {
+  border-bottom: none;
+}
+
+.setting-label {
+  font-size: var(--font-size-md);
+  color: var(--color-text-primary);
+  flex-shrink: 0;
+  margin-right: var(--spacing-md);
+}
+
+.setting-value {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-tertiary);
+}
+
+.setting-danger .setting-label {
+  color: var(--color-error);
+}
+
+.theme-switch {
+  display: flex;
+  gap: 6rpx;
+  background-color: var(--color-bg-tertiary);
+  border-radius: var(--radius-full);
+  padding: 4rpx;
+}
+
+.theme-opt {
+  padding: 8rpx 16rpx;
+  font-size: var(--font-size-xs);
+  border-radius: var(--radius-full);
+  color: var(--color-text-secondary);
+}
+
+.theme-opt.active {
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+}
+
+switch {
+  flex-shrink: 0;
+}
+
+slider {
+  flex: 1;
+  margin-left: var(--spacing-md);
+}

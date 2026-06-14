@@ -1,0 +1,104 @@
+<!--pages/setting/setting.wxml - 设置页-->
+<view class="page-container setting-page {{_theme === 'dark' ? 'theme-dark' : ''}}">
+  <navigation-bar title="设置" back="{{true}}" color="{{_theme === 'dark' ? 'white' : 'black'}}" background="{{_theme === 'dark' ? '#1E293B' : '#FFFFFF'}}">
+  </navigation-bar>
+
+  <!-- 外观 -->
+  <view class="setting-section">
+    <text class="section-label">外观</text>
+    <view class="setting-card">
+      <view class="setting-item">
+        <text class="setting-label">主题模式</text>
+        <view class="theme-switch">
+          <text class="theme-opt {{setting.theme === 'light' ? 'active' : ''}}" bindtap="onSetTheme" data-theme="light">☀️ 浅色</text>
+          <text class="theme-opt {{setting.theme === 'dark' ? 'active' : ''}}" bindtap="onSetTheme" data-theme="dark">🌙 深色</text>
+          <text class="theme-opt {{setting.theme === 'auto' ? 'active' : ''}}" bindtap="onSetTheme" data-theme="auto">🔆 系统</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 练习设置 -->
+  <view class="setting-section">
+    <text class="section-label">练习设置</text>
+    <view class="setting-card">
+      <view class="setting-item" bindtap="onSetChapterSize">
+        <text class="setting-label">每章单词数</text>
+        <text class="setting-value">{{setting.chapterSize}} 个 →</text>
+      </view>
+      <view class="setting-item">
+        <text class="setting-label">显示单词（非盲打）</text>
+        <switch checked="{{setting.showWord}}" bindchange="onToggleShowWord" color="#4F46E5"/>
+      </view>
+      <view class="setting-item">
+        <text class="setting-label">随机模式</text>
+        <switch checked="{{setting.randomMode}}" bindchange="onToggleRandom" color="#4F46E5"/>
+      </view>
+      <view class="setting-item">
+        <text class="setting-label">循环模式</text>
+        <switch checked="{{setting.loopMode}}" bindchange="onToggleLoop" color="#4F46E5"/>
+      </view>
+      <view class="setting-item">
+        <text class="setting-label">翻转模式（先看释义）</text>
+        <switch checked="{{setting.reverseMode}}" bindchange="onToggleReverse" color="#4F46E5"/>
+      </view>
+    </view>
+  </view>
+
+  <!-- 音效设置 -->
+  <view class="setting-section">
+    <text class="section-label">音效设置</text>
+    <view class="setting-card">
+      <view class="setting-item">
+        <text class="setting-label">键盘音效</text>
+        <switch checked="{{setting.keyboardSound}}" bindchange="onToggleKeyboardSound" color="#4F46E5"/>
+      </view>
+      <view class="setting-item">
+        <text class="setting-label">键盘音量</text>
+        <slider min="10" max="100" value="{{setting.keyboardSoundVolume}}" bindchange="onKeyboardVolumeChange" activeColor="#4F46E5" block-size="20"/>
+      </view>
+      <view class="setting-item">
+        <text class="setting-label">效果音效</text>
+        <switch checked="{{setting.effectSound}}" bindchange="onToggleEffectSound" color="#4F46E5"/>
+      </view>
+      <view class="setting-item">
+        <text class="setting-label">效果音量</text>
+        <slider min="10" max="100" value="{{setting.effectSoundVolume}}" bindchange="onEffectVolumeChange" activeColor="#4F46E5" block-size="20"/>
+      </view>
+      <view class="setting-item" bindtap="onSetSoundType">
+        <text class="setting-label">发音偏好</text>
+        <text class="setting-value">{{setting.soundType === 'us' ? '美式 🇺🇸' : '英式 🇬🇧'}} →</text>
+      </view>
+      <view class="setting-item">
+        <text class="setting-label">单词发音音量</text>
+        <slider min="10" max="100" value="{{setting.wordSoundVolume}}" bindchange="onWordVolumeChange" activeColor="#4F46E5" block-size="20"/>
+      </view>
+    </view>
+  </view>
+
+  <!-- 关于 -->
+  <view class="setting-section">
+    <text class="section-label">关于</text>
+    <view class="setting-card">
+      <view class="setting-item">
+        <text class="setting-label">TypeWords</text>
+        <text class="setting-value">v1.0.0</text>
+      </view>
+      <view class="setting-item">
+        <text class="setting-label">原始项目</text>
+        <text class="setting-value">Qwerty Learner</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="setting-section">
+    <view class="setting-card">
+      <view class="setting-item setting-danger" bindtap="onClearData">
+        <text class="setting-label">清除所有数据</text>
+        <text class="setting-value">→</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="safe-bottom"></view>
+</view>

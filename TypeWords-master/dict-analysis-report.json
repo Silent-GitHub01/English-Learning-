@@ -1,0 +1,2591 @@
+{
+  "summary": {
+    "totalDicts": 255,
+    "articleDicts": 4,
+    "wordDicts": 251,
+    "totalArticles": 276,
+    "totalWords": 298085
+  },
+  "article": [
+    {
+      "name": "NCE_1",
+      "fileName": "NCE_1.json",
+      "count": 72,
+      "type": "article"
+    },
+    {
+      "name": "NCE_2",
+      "fileName": "NCE_2.json",
+      "count": 96,
+      "type": "article"
+    },
+    {
+      "name": "NCE_3",
+      "fileName": "NCE_3.json",
+      "count": 60,
+      "type": "article"
+    },
+    {
+      "name": "NCE_4",
+      "fileName": "NCE_4.json",
+      "count": 48,
+      "type": "article"
+    }
+  ],
+  "word": [
+    {
+      "name": "IELTS_disorder",
+      "fileName": "IELTS_disorder.json",
+      "count": 9389,
+      "type": "word"
+    },
+    {
+      "name": "IELTS_order",
+      "fileName": "IELTS_order.json",
+      "count": 9389,
+      "type": "word"
+    },
+    {
+      "name": "gre-ciyileiji",
+      "fileName": "gre-ciyileiji.json",
+      "count": 8785,
+      "type": "word"
+    },
+    {
+      "name": "xinghuoqiaoji_6",
+      "fileName": "xinghuoqiaoji_6.json",
+      "count": 7520,
+      "type": "word"
+    },
+    {
+      "name": "2025KaoYanHongBaoShu",
+      "fileName": "2025KaoYanHongBaoShu.json",
+      "count": 6705,
+      "type": "word"
+    },
+    {
+      "name": "GRE_3_T",
+      "fileName": "GRE_3_T.json",
+      "count": 6515,
+      "type": "word"
+    },
+    {
+      "name": "Macmillan7000",
+      "fileName": "Macmillan7000.json",
+      "count": 6268,
+      "type": "word"
+    },
+    {
+      "name": "Oxford5000",
+      "fileName": "Oxford5000.json",
+      "count": 5836,
+      "type": "word"
+    },
+    {
+      "name": "DanCiDeMimi_1",
+      "fileName": "DanCiDeMimi_1.json",
+      "count": 5657,
+      "type": "word"
+    },
+    {
+      "name": "IELTS_XDF_7000",
+      "fileName": "IELTS_XDF_7000.json",
+      "count": 5567,
+      "type": "word"
+    },
+    {
+      "name": "hongbaoshu-2026",
+      "fileName": "hongbaoshu-2026.json",
+      "count": 4858,
+      "type": "word"
+    },
+    {
+      "name": "self-study_English3",
+      "fileName": "self-study_English3.json",
+      "count": 4603,
+      "type": "word"
+    },
+    {
+      "name": "English_II",
+      "fileName": "English_II.json",
+      "count": 4559,
+      "type": "word"
+    },
+    {
+      "name": "SAT_3_T",
+      "fileName": "SAT_3_T.json",
+      "count": 4464,
+      "type": "word"
+    },
+    {
+      "name": "PETS3-2023",
+      "fileName": "PETS3-2023.json",
+      "count": 4449,
+      "type": "word"
+    },
+    {
+      "name": "ielts-807",
+      "fileName": "ielts-807.json",
+      "count": 4340,
+      "type": "word"
+    },
+    {
+      "name": "TOEFL_3_T",
+      "fileName": "TOEFL_3_T.json",
+      "count": 4264,
+      "type": "word"
+    },
+    {
+      "name": "TOEFL_ZhangHongYan",
+      "fileName": "TOEFL_ZhangHongYan.json",
+      "count": 4032,
+      "type": "word"
+    },
+    {
+      "name": "Level4luan_2_T",
+      "fileName": "Level4luan_2_T.json",
+      "count": 4025,
+      "type": "word"
+    },
+    {
+      "name": "GaoKao_3500",
+      "fileName": "GaoKao_3500.json",
+      "count": 3893,
+      "type": "word"
+    },
+    {
+      "name": "DanCiDeMimi_2",
+      "fileName": "DanCiDeMimi_2.json",
+      "count": 3827,
+      "type": "word"
+    },
+    {
+      "name": "KaoYan_2024",
+      "fileName": "KaoYan_2024.json",
+      "count": 3731,
+      "type": "word"
+    },
+    {
+      "name": "KaoYan_3_T",
+      "fileName": "KaoYan_3_T.json",
+      "count": 3728,
+      "type": "word"
+    },
+    {
+      "name": "adult-self-study-examination",
+      "fileName": "adult-self-study-examination.json",
+      "count": 3692,
+      "type": "word"
+    },
+    {
+      "name": "IELTSVocabularyBible",
+      "fileName": "IELTSVocabularyBible.json",
+      "count": 3673,
+      "type": "word"
+    },
+    {
+      "name": "4000_Essential_English_Words-meaning",
+      "fileName": "4000_Essential_English_Words-meaning.json",
+      "count": 3600,
+      "type": "word"
+    },
+    {
+      "name": "4000_Essential_English_Words-sentence",
+      "fileName": "4000_Essential_English_Words-sentence.json",
+      "count": 3600,
+      "type": "word"
+    },
+    {
+      "name": "IELTS_3_T",
+      "fileName": "IELTS_3_T.json",
+      "count": 3575,
+      "type": "word"
+    },
+    {
+      "name": "zhuan-cha-ben",
+      "fileName": "zhuan-cha-ben.json",
+      "count": 3216,
+      "type": "word"
+    },
+    {
+      "name": "PTE_senior",
+      "fileName": "PTE_senior.json",
+      "count": 3170,
+      "type": "word"
+    },
+    {
+      "name": "PTE_Advanced_apeuni",
+      "fileName": "PTE_Advanced_apeuni.json",
+      "count": 3169,
+      "type": "word"
+    },
+    {
+      "name": "Longman_Communication_3000",
+      "fileName": "Longman_Communication_3000.json",
+      "count": 3168,
+      "type": "word"
+    },
+    {
+      "name": "GMAT_3_T",
+      "fileName": "GMAT_3_T.json",
+      "count": 3047,
+      "type": "word"
+    },
+    {
+      "name": "GRE3000_3_T",
+      "fileName": "GRE3000_3_T.json",
+      "count": 3041,
+      "type": "word"
+    },
+    {
+      "name": "ZaiYaoNiMing_GRE3000",
+      "fileName": "ZaiYaoNiMing_GRE3000.json",
+      "count": 3041,
+      "type": "word"
+    },
+    {
+      "name": "3000_ClassRoom_English_Words",
+      "fileName": "3000_ClassRoom_English_Words.json",
+      "count": 2991,
+      "type": "word"
+    },
+    {
+      "name": "BEC_3_T",
+      "fileName": "BEC_3_T.json",
+      "count": 2825,
+      "type": "word"
+    },
+    {
+      "name": "BEC_2_T",
+      "fileName": "BEC_2_T.json",
+      "count": 2753,
+      "type": "word"
+    },
+    {
+      "name": "SATen",
+      "fileName": "SATen.json",
+      "count": 2681,
+      "type": "word"
+    },
+    {
+      "name": "PTE_Basic_apeuni",
+      "fileName": "PTE_Basic_apeuni.json",
+      "count": 2652,
+      "type": "word"
+    },
+    {
+      "name": "PTE_junior",
+      "fileName": "PTE_junior.json",
+      "count": 2651,
+      "type": "word"
+    },
+    {
+      "name": "DuckCircle_IELTS",
+      "fileName": "DuckCircle_IELTS.json",
+      "count": 2644,
+      "type": "word"
+    },
+    {
+      "name": "CET4_T",
+      "fileName": "CET4_T.json",
+      "count": 2607,
+      "type": "word"
+    },
+    {
+      "name": "HeQiong_IELTS",
+      "fileName": "HeQiong_IELTS.json",
+      "count": 2529,
+      "type": "word"
+    },
+    {
+      "name": "xinghuoqiaoji_4",
+      "fileName": "xinghuoqiaoji_4.json",
+      "count": 2522,
+      "type": "word"
+    },
+    {
+      "name": "CET6_T",
+      "fileName": "CET6_T.json",
+      "count": 2345,
+      "type": "word"
+    },
+    {
+      "name": "kaoyanshanguo2025",
+      "fileName": "kaoyanshanguo2025.json",
+      "count": 2257,
+      "type": "word"
+    },
+    {
+      "name": "self-study_English2",
+      "fileName": "self-study_English2.json",
+      "count": 2181,
+      "type": "word"
+    },
+    {
+      "name": "ZhongKaoHeXin",
+      "fileName": "ZhongKaoHeXin.json",
+      "count": 2140,
+      "type": "word"
+    },
+    {
+      "name": "DanCiDeJianFa_4",
+      "fileName": "DanCiDeJianFa_4.json",
+      "count": 1957,
+      "type": "word"
+    },
+    {
+      "name": "DanCiDeJianFa_6",
+      "fileName": "DanCiDeJianFa_6.json",
+      "count": 1949,
+      "type": "word"
+    },
+    {
+      "name": "PETS_3",
+      "fileName": "PETS_3.json",
+      "count": 1942,
+      "type": "word"
+    },
+    {
+      "name": "IELTSKingLu807",
+      "fileName": "IELTSKingLu807.json",
+      "count": 1916,
+      "type": "word"
+    },
+    {
+      "name": "pet-vacabulary-list-2024",
+      "fileName": "pet-vacabulary-list-2024.json",
+      "count": 1871,
+      "type": "word"
+    },
+    {
+      "name": "top2000words",
+      "fileName": "top2000words.json",
+      "count": 1867,
+      "type": "word"
+    },
+    {
+      "name": "beijing_junior_high_school",
+      "fileName": "beijing_junior_high_school.json",
+      "count": 1844,
+      "type": "word"
+    },
+    {
+      "name": "self-study_English1",
+      "fileName": "self-study_English1.json",
+      "count": 1800,
+      "type": "word"
+    },
+    {
+      "name": "KaoYanShanGuo_2023",
+      "fileName": "KaoYanShanGuo_2023.json",
+      "count": 1771,
+      "type": "word"
+    },
+    {
+      "name": "IELTS_WANG_11",
+      "fileName": "IELTS_WANG_11.json",
+      "count": 1738,
+      "type": "word"
+    },
+    {
+      "name": "it-words",
+      "fileName": "it-words.json",
+      "count": 1700,
+      "type": "word"
+    },
+    {
+      "name": "TOEIC",
+      "fileName": "TOEIC.json",
+      "count": 1694,
+      "type": "word"
+    },
+    {
+      "name": "itVocabulary",
+      "fileName": "itVocabulary.json",
+      "count": 1665,
+      "type": "word"
+    },
+    {
+      "name": "IELTS_WANG_5",
+      "fileName": "IELTS_WANG_5.json",
+      "count": 1569,
+      "type": "word"
+    },
+    {
+      "name": "GRE_1500",
+      "fileName": "GRE_1500.json",
+      "count": 1533,
+      "type": "word"
+    },
+    {
+      "name": "Top1500NounWords",
+      "fileName": "Top1500NounWords.json",
+      "count": 1525,
+      "type": "word"
+    },
+    {
+      "name": "voa",
+      "fileName": "voa.json",
+      "count": 1505,
+      "type": "word"
+    },
+    {
+      "name": "GRE-computer-based-test",
+      "fileName": "GRE-computer-based-test.json",
+      "count": 1451,
+      "type": "word"
+    },
+    {
+      "name": "frequently_used_word03",
+      "fileName": "frequently_used_word03.json",
+      "count": 1435,
+      "type": "word"
+    },
+    {
+      "name": "Duolingo_Vocabulary_B2",
+      "fileName": "Duolingo_Vocabulary_B2.json",
+      "count": 1423,
+      "type": "word"
+    },
+    {
+      "name": "Cambridge_JOIN_IN",
+      "fileName": "Cambridge_JOIN_IN.json",
+      "count": 1350,
+      "type": "word"
+    },
+    {
+      "name": "Oxford3000",
+      "fileName": "Oxford3000.json",
+      "count": 1342,
+      "type": "word"
+    },
+    {
+      "name": "Duolingo_Vocabulary_C1",
+      "fileName": "Duolingo_Vocabulary_C1.json",
+      "count": 1314,
+      "type": "word"
+    },
+    {
+      "name": "PTE_FIB_R_senior",
+      "fileName": "PTE_FIB_R_senior.json",
+      "count": 1272,
+      "type": "word"
+    },
+    {
+      "name": "OxfordVocabulary_juniorMiddleSH",
+      "fileName": "OxfordVocabulary_juniorMiddleSH.json",
+      "count": 1270,
+      "type": "word"
+    },
+    {
+      "name": "PTE_WFD",
+      "fileName": "PTE_WFD.json",
+      "count": 1212,
+      "type": "word"
+    },
+    {
+      "name": "IELTS_tinglichangjing",
+      "fileName": "IELTS_tinglichangjing.json",
+      "count": 1204,
+      "type": "word"
+    },
+    {
+      "name": "Merriam_Webster_sVocabularyBuilder",
+      "fileName": "Merriam_Webster_sVocabularyBuilder.json",
+      "count": 1191,
+      "type": "word"
+    },
+    {
+      "name": "ket2021",
+      "fileName": "ket2021.json",
+      "count": 1147,
+      "type": "word"
+    },
+    {
+      "name": "IELTS_WANG_3",
+      "fileName": "IELTS_WANG_3.json",
+      "count": 1135,
+      "type": "word"
+    },
+    {
+      "name": "nce-new-3",
+      "fileName": "nce-new-3.json",
+      "count": 1062,
+      "type": "word"
+    },
+    {
+      "name": "NCE_3",
+      "fileName": "NCE_3.json",
+      "count": 1052,
+      "type": "word"
+    },
+    {
+      "name": "frequently_used_word02",
+      "fileName": "frequently_used_word02.json",
+      "count": 1040,
+      "type": "word"
+    },
+    {
+      "name": "Top1000VerbWords",
+      "fileName": "Top1000VerbWords.json",
+      "count": 1011,
+      "type": "word"
+    },
+    {
+      "name": "2024HongBao_T1",
+      "fileName": "2024HongBao_T1.json",
+      "count": 997,
+      "type": "word"
+    },
+    {
+      "name": "PTE_FIB_R_junior",
+      "fileName": "PTE_FIB_R_junior.json",
+      "count": 941,
+      "type": "word"
+    },
+    {
+      "name": "926",
+      "fileName": "926.json",
+      "count": 926,
+      "type": "word"
+    },
+    {
+      "name": "nce-new-1",
+      "fileName": "nce-new-1.json",
+      "count": 908,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-oral-900",
+      "fileName": "IELTS-oral-900.json",
+      "count": 900,
+      "type": "word"
+    },
+    {
+      "name": "NCE_1",
+      "fileName": "NCE_1.json",
+      "count": 900,
+      "type": "word"
+    },
+    {
+      "name": "xueshiyingyu",
+      "fileName": "xueshiyingyu.json",
+      "count": 897,
+      "type": "word"
+    },
+    {
+      "name": "nce-new-2",
+      "fileName": "nce-new-2.json",
+      "count": 862,
+      "type": "word"
+    },
+    {
+      "name": "NCE_2",
+      "fileName": "NCE_2.json",
+      "count": 858,
+      "type": "word"
+    },
+    {
+      "name": "2024HongBao_T2",
+      "fileName": "2024HongBao_T2.json",
+      "count": 854,
+      "type": "word"
+    },
+    {
+      "name": "GRE_equivalent",
+      "fileName": "GRE_equivalent.json",
+      "count": 827,
+      "type": "word"
+    },
+    {
+      "name": "Duolingo_Vocabulary_B1",
+      "fileName": "Duolingo_Vocabulary_B1.json",
+      "count": 801,
+      "type": "word"
+    },
+    {
+      "name": "GaoKaoZhenTiHeXinGaoPin",
+      "fileName": "GaoKaoZhenTiHeXinGaoPin.json",
+      "count": 799,
+      "type": "word"
+    },
+    {
+      "name": "nce-new-4",
+      "fileName": "nce-new-4.json",
+      "count": 793,
+      "type": "word"
+    },
+    {
+      "name": "NCE_4",
+      "fileName": "NCE_4.json",
+      "count": 784,
+      "type": "word"
+    },
+    {
+      "name": "ielts-real-1",
+      "fileName": "ielts-real-1.json",
+      "count": 737,
+      "type": "word"
+    },
+    {
+      "name": "gaokao-yuedu-gaopin",
+      "fileName": "gaokao-yuedu-gaopin.json",
+      "count": 688,
+      "type": "word"
+    },
+    {
+      "name": "frequently_used_word01",
+      "fileName": "frequently_used_word01.json",
+      "count": 679,
+      "type": "word"
+    },
+    {
+      "name": "PTE_Listening_apeuni",
+      "fileName": "PTE_Listening_apeuni.json",
+      "count": 674,
+      "type": "word"
+    },
+    {
+      "name": "PTE_FIB_L",
+      "fileName": "PTE_FIB_L.json",
+      "count": 646,
+      "type": "word"
+    },
+    {
+      "name": "jiJiao9",
+      "fileName": "jiJiao9.json",
+      "count": 636,
+      "type": "word"
+    },
+    {
+      "name": "PTE_Read_apeuni",
+      "fileName": "PTE_Read_apeuni.json",
+      "count": 630,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_1_T",
+      "fileName": "WaiYanSheChuZhong_1_T.json",
+      "count": 629,
+      "type": "word"
+    },
+    {
+      "name": "jiJiao7-1",
+      "fileName": "jiJiao7-1.json",
+      "count": 561,
+      "type": "word"
+    },
+    {
+      "name": "tingshuokaoshi",
+      "fileName": "tingshuokaoshi.json",
+      "count": 556,
+      "type": "word"
+    },
+    {
+      "name": "PEPChuZhong9_1_T",
+      "fileName": "PEPChuZhong9_1_T.json",
+      "count": 551,
+      "type": "word"
+    },
+    {
+      "name": "Top500AdjectiveWords",
+      "fileName": "Top500AdjectiveWords.json",
+      "count": 527,
+      "type": "word"
+    },
+    {
+      "name": "ielts-real-high",
+      "fileName": "ielts-real-high.json",
+      "count": 524,
+      "type": "word"
+    },
+    {
+      "name": "jiJiao7-2",
+      "fileName": "jiJiao7-2.json",
+      "count": 514,
+      "type": "word"
+    },
+    {
+      "name": "PEPChuZhong7_2_T",
+      "fileName": "PEPChuZhong7_2_T.json",
+      "count": 492,
+      "type": "word"
+    },
+    {
+      "name": "jiJiao8-2",
+      "fileName": "jiJiao8-2.json",
+      "count": 487,
+      "type": "word"
+    },
+    {
+      "name": "PEPChuZhong8_2_T",
+      "fileName": "PEPChuZhong8_2_T.json",
+      "count": 466,
+      "type": "word"
+    },
+    {
+      "name": "Common-Phrases-FCE-Unofficial",
+      "fileName": "Common-Phrases-FCE-Unofficial.json",
+      "count": 438,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_2_T",
+      "fileName": "WaiYanSheChuZhong_2_T.json",
+      "count": 438,
+      "type": "word"
+    },
+    {
+      "name": "PEPGaoZhong_8_T",
+      "fileName": "PEPGaoZhong_8_T.json",
+      "count": 420,
+      "type": "word"
+    },
+    {
+      "name": "jiJiao8-1",
+      "fileName": "jiJiao8-1.json",
+      "count": 420,
+      "type": "word"
+    },
+    {
+      "name": "PEPChuZhong8_1_T",
+      "fileName": "PEPChuZhong8_1_T.json",
+      "count": 419,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheGaoZhong_1_T",
+      "fileName": "WaiYanSheGaoZhong_1_T.json",
+      "count": 411,
+      "type": "word"
+    },
+    {
+      "name": "ielts-real-2",
+      "fileName": "ielts-real-2.json",
+      "count": 402,
+      "type": "word"
+    },
+    {
+      "name": "PEPChuZhong7_1_T",
+      "fileName": "PEPChuZhong7_1_T.json",
+      "count": 392,
+      "type": "word"
+    },
+    {
+      "name": "PEPGaoZhong_6_T",
+      "fileName": "PEPGaoZhong_6_T.json",
+      "count": 391,
+      "type": "word"
+    },
+    {
+      "name": "PEPGaoZhong_7_T",
+      "fileName": "PEPGaoZhong_7_T.json",
+      "count": 384,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_5_T",
+      "fileName": "WaiYanSheChuZhong_5_T.json",
+      "count": 381,
+      "type": "word"
+    },
+    {
+      "name": "word_roots1",
+      "fileName": "word_roots1.json",
+      "count": 369,
+      "type": "word"
+    },
+    {
+      "name": "PEPGaoZhong_3_T",
+      "fileName": "PEPGaoZhong_3_T.json",
+      "count": 366,
+      "type": "word"
+    },
+    {
+      "name": "BeiShiGaoZhong_8_T",
+      "fileName": "BeiShiGaoZhong_8_T.json",
+      "count": 364,
+      "type": "word"
+    },
+    {
+      "name": "PEPGaoZhong_10_T",
+      "fileName": "PEPGaoZhong_10_T.json",
+      "count": 361,
+      "type": "word"
+    },
+    {
+      "name": "PEPGaoZhong_5_T",
+      "fileName": "PEPGaoZhong_5_T.json",
+      "count": 357,
+      "type": "word"
+    },
+    {
+      "name": "PEPGaoZhong_9_T",
+      "fileName": "PEPGaoZhong_9_T.json",
+      "count": 352,
+      "type": "word"
+    },
+    {
+      "name": "IELTS_WANG_4",
+      "fileName": "IELTS_WANG_4.json",
+      "count": 346,
+      "type": "word"
+    },
+    {
+      "name": "BeiShiGaoZhong_4_T",
+      "fileName": "BeiShiGaoZhong_4_T.json",
+      "count": 336,
+      "type": "word"
+    },
+    {
+      "name": "BeiShiGaoZhong_7_T",
+      "fileName": "BeiShiGaoZhong_7_T.json",
+      "count": 334,
+      "type": "word"
+    },
+    {
+      "name": "BeiShiGaoZhong_11_T",
+      "fileName": "BeiShiGaoZhong_11_T.json",
+      "count": 330,
+      "type": "word"
+    },
+    {
+      "name": "BeiShiGaoZhong_5_T",
+      "fileName": "BeiShiGaoZhong_5_T.json",
+      "count": 327,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_3_T",
+      "fileName": "WaiYanSheChuZhong_3_T.json",
+      "count": 320,
+      "type": "word"
+    },
+    {
+      "name": "PEPGaoZhong_2_T",
+      "fileName": "PEPGaoZhong_2_T.json",
+      "count": 319,
+      "type": "word"
+    },
+    {
+      "name": "PEPGaoZhong_1_T",
+      "fileName": "PEPGaoZhong_1_T.json",
+      "count": 311,
+      "type": "word"
+    },
+    {
+      "name": "PEPGaoZhong_11_T",
+      "fileName": "PEPGaoZhong_11_T.json",
+      "count": 309,
+      "type": "word"
+    },
+    {
+      "name": "PEPGaoZhong_4_T",
+      "fileName": "PEPGaoZhong_4_T.json",
+      "count": 307,
+      "type": "word"
+    },
+    {
+      "name": "Newwaiyan7-2",
+      "fileName": "Newwaiyan7-2.json",
+      "count": 305,
+      "type": "word"
+    },
+    {
+      "name": "BeiShiGaoZhong_9_T",
+      "fileName": "BeiShiGaoZhong_9_T.json",
+      "count": 299,
+      "type": "word"
+    },
+    {
+      "name": "YiLin_2",
+      "fileName": "YiLin_2.json",
+      "count": 297,
+      "type": "word"
+    },
+    {
+      "name": "BeiShiGaoZhong_3_T",
+      "fileName": "BeiShiGaoZhong_3_T.json",
+      "count": 295,
+      "type": "word"
+    },
+    {
+      "name": "YiLin_3",
+      "fileName": "YiLin_3.json",
+      "count": 295,
+      "type": "word"
+    },
+    {
+      "name": "Newwaiyan7-1",
+      "fileName": "Newwaiyan7-1.json",
+      "count": 294,
+      "type": "word"
+    },
+    {
+      "name": "YiLin_1",
+      "fileName": "YiLin_1.json",
+      "count": 276,
+      "type": "word"
+    },
+    {
+      "name": "Common-Phrases-PTE-Unofficial",
+      "fileName": "Common-Phrases-PTE-Unofficial.json",
+      "count": 274,
+      "type": "word"
+    },
+    {
+      "name": "shanghai-6-2-word",
+      "fileName": "shanghai-6-2-word.json",
+      "count": 274,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheGaoZhong_2_T",
+      "fileName": "WaiYanSheGaoZhong_2_T.json",
+      "count": 272,
+      "type": "word"
+    },
+    {
+      "name": "BeiShiGaoZhong_6_T",
+      "fileName": "BeiShiGaoZhong_6_T.json",
+      "count": 271,
+      "type": "word"
+    },
+    {
+      "name": "BeiShiGaoZhong_10_T",
+      "fileName": "BeiShiGaoZhong_10_T.json",
+      "count": 267,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_4_T",
+      "fileName": "WaiYanSheChuZhong_4_T.json",
+      "count": 266,
+      "type": "word"
+    },
+    {
+      "name": "ielts-real-3",
+      "fileName": "ielts-real-3.json",
+      "count": 256,
+      "type": "word"
+    },
+    {
+      "name": "Top250AdverbWords",
+      "fileName": "Top250AdverbWords.json",
+      "count": 255,
+      "type": "word"
+    },
+    {
+      "name": "BeiShiGaoZhong_2_T",
+      "fileName": "BeiShiGaoZhong_2_T.json",
+      "count": 244,
+      "type": "word"
+    },
+    {
+      "name": "ReadingExplorer3",
+      "fileName": "ReadingExplorer3.json",
+      "count": 239,
+      "type": "word"
+    },
+    {
+      "name": "BeiShiGaoZhong_1_T",
+      "fileName": "BeiShiGaoZhong_1_T.json",
+      "count": 226,
+      "type": "word"
+    },
+    {
+      "name": "ielts-real-4",
+      "fileName": "ielts-real-4.json",
+      "count": 201,
+      "type": "word"
+    },
+    {
+      "name": "ielts-real-5",
+      "fileName": "ielts-real-5.json",
+      "count": 183,
+      "type": "word"
+    },
+    {
+      "name": "PEPXiaoXue5_2_T",
+      "fileName": "PEPXiaoXue5_2_T.json",
+      "count": 156,
+      "type": "word"
+    },
+    {
+      "name": "waiyan-xin-3-2",
+      "fileName": "waiyan-xin-3-2.json",
+      "count": 156,
+      "type": "word"
+    },
+    {
+      "name": "waiyan-xin-5-1",
+      "fileName": "waiyan-xin-5-1.json",
+      "count": 152,
+      "type": "word"
+    },
+    {
+      "name": "waiyan-xin-5-2",
+      "fileName": "waiyan-xin-5-2.json",
+      "count": 147,
+      "type": "word"
+    },
+    {
+      "name": "waiyan-xin-4-1",
+      "fileName": "waiyan-xin-4-1.json",
+      "count": 144,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_1-Volume-up",
+      "fileName": "WaiYanSheChuZhong_1-Volume-up.json",
+      "count": 138,
+      "type": "word"
+    },
+    {
+      "name": "waiyan-xin-3-1",
+      "fileName": "waiyan-xin-3-1.json",
+      "count": 134,
+      "type": "word"
+    },
+    {
+      "name": "waiyan-xin-4-2",
+      "fileName": "waiyan-xin-4-2.json",
+      "count": 134,
+      "type": "word"
+    },
+    {
+      "name": "PEPXiaoXue5_1_T",
+      "fileName": "PEPXiaoXue5_1_T.json",
+      "count": 131,
+      "type": "word"
+    },
+    {
+      "name": "PEPXiaoXue6_1_T",
+      "fileName": "PEPXiaoXue6_1_T.json",
+      "count": 130,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_6_T",
+      "fileName": "WaiYanSheChuZhong_6_T.json",
+      "count": 128,
+      "type": "word"
+    },
+    {
+      "name": "suffix_word",
+      "fileName": "suffix_word.json",
+      "count": 126,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_1-Volume-down",
+      "fileName": "WaiYanSheChuZhong_1-Volume-down.json",
+      "count": 118,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_2-Volume-top",
+      "fileName": "WaiYanSheChuZhong_2-Volume-top.json",
+      "count": 118,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_4-Volume-top",
+      "fileName": "WaiYanSheChuZhong_4-Volume-top.json",
+      "count": 116,
+      "type": "word"
+    },
+    {
+      "name": "PEP_SL_XiaoXue4_1_t",
+      "fileName": "PEP_SL_XiaoXue4_1_t.json",
+      "count": 115,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_2-Volume-down",
+      "fileName": "WaiYanSheChuZhong_2-Volume-down.json",
+      "count": 110,
+      "type": "word"
+    },
+    {
+      "name": "PEPXiaoXue6_2_T",
+      "fileName": "PEPXiaoXue6_2_T.json",
+      "count": 108,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_3-Volume-down",
+      "fileName": "WaiYanSheChuZhong_3-Volume-down.json",
+      "count": 106,
+      "type": "word"
+    },
+    {
+      "name": "waiyan-xin-6-2",
+      "fileName": "waiyan-xin-6-2.json",
+      "count": 105,
+      "type": "word"
+    },
+    {
+      "name": "PEPXiaoXue4_2_T",
+      "fileName": "PEPXiaoXue4_2_T.json",
+      "count": 104,
+      "type": "word"
+    },
+    {
+      "name": "PEP_SL_XiaoXue3_1_t",
+      "fileName": "PEP_SL_XiaoXue3_1_t.json",
+      "count": 103,
+      "type": "word"
+    },
+    {
+      "name": "PEP_SL_XiaoXue6_1_t",
+      "fileName": "PEP_SL_XiaoXue6_1_t.json",
+      "count": 102,
+      "type": "word"
+    },
+    {
+      "name": "PEP_SL_XiaoXue5_2_t",
+      "fileName": "PEP_SL_XiaoXue5_2_t.json",
+      "count": 96,
+      "type": "word"
+    },
+    {
+      "name": "jiJiao5-2",
+      "fileName": "jiJiao5-2.json",
+      "count": 96,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_6-Volume-down",
+      "fileName": "WaiYanSheChuZhong_6-Volume-down.json",
+      "count": 91,
+      "type": "word"
+    },
+    {
+      "name": "PEP_SL_XiaoXue4_2_t",
+      "fileName": "PEP_SL_XiaoXue4_2_t.json",
+      "count": 87,
+      "type": "word"
+    },
+    {
+      "name": "PEPXiaoXue4_1_T",
+      "fileName": "PEPXiaoXue4_1_T.json",
+      "count": 84,
+      "type": "word"
+    },
+    {
+      "name": "PEP_SL_XiaoXue3_2_t",
+      "fileName": "PEP_SL_XiaoXue3_2_t.json",
+      "count": 84,
+      "type": "word"
+    },
+    {
+      "name": "jiJiao4-2",
+      "fileName": "jiJiao4-2.json",
+      "count": 84,
+      "type": "word"
+    },
+    {
+      "name": "waiyan-xin-6-1",
+      "fileName": "waiyan-xin-6-1.json",
+      "count": 83,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_3-Volume-top",
+      "fileName": "WaiYanSheChuZhong_3-Volume-top.json",
+      "count": 82,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_5-Volume-top",
+      "fileName": "WaiYanSheChuZhong_5-Volume-top.json",
+      "count": 80,
+      "type": "word"
+    },
+    {
+      "name": "jiJiao5-1",
+      "fileName": "jiJiao5-1.json",
+      "count": 79,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day13",
+      "fileName": "IELTS-listening-18days-day13.json",
+      "count": 78,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_4-Volume-down",
+      "fileName": "WaiYanSheChuZhong_4-Volume-down.json",
+      "count": 78,
+      "type": "word"
+    },
+    {
+      "name": "jiJiao4-1",
+      "fileName": "jiJiao4-1.json",
+      "count": 78,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day12",
+      "fileName": "IELTS-listening-18days-day12.json",
+      "count": 77,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day15",
+      "fileName": "IELTS-listening-18days-day15.json",
+      "count": 77,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day16",
+      "fileName": "IELTS-listening-18days-day16.json",
+      "count": 77,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day2",
+      "fileName": "IELTS-listening-18days-day2.json",
+      "count": 77,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day3",
+      "fileName": "IELTS-listening-18days-day3.json",
+      "count": 77,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day6",
+      "fileName": "IELTS-listening-18days-day6.json",
+      "count": 77,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day14",
+      "fileName": "IELTS-listening-18days-day14.json",
+      "count": 76,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day18",
+      "fileName": "IELTS-listening-18days-day18.json",
+      "count": 76,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day5",
+      "fileName": "IELTS-listening-18days-day5.json",
+      "count": 76,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day9",
+      "fileName": "IELTS-listening-18days-day9.json",
+      "count": 76,
+      "type": "word"
+    },
+    {
+      "name": "jiJiao3-2",
+      "fileName": "jiJiao3-2.json",
+      "count": 76,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day7",
+      "fileName": "IELTS-listening-18days-day7.json",
+      "count": 75,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day8",
+      "fileName": "IELTS-listening-18days-day8.json",
+      "count": 75,
+      "type": "word"
+    },
+    {
+      "name": "jiJiao3-1",
+      "fileName": "jiJiao3-1.json",
+      "count": 75,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day1",
+      "fileName": "IELTS-listening-18days-day1.json",
+      "count": 74,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day4",
+      "fileName": "IELTS-listening-18days-day4.json",
+      "count": 73,
+      "type": "word"
+    },
+    {
+      "name": "PEPXiaoXue3_2_T",
+      "fileName": "PEPXiaoXue3_2_T.json",
+      "count": 72,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_5-Volume-down",
+      "fileName": "WaiYanSheChuZhong_5-Volume-down.json",
+      "count": 72,
+      "type": "word"
+    },
+    {
+      "name": "PEP_SL_XiaoXue5_1_t",
+      "fileName": "PEP_SL_XiaoXue5_1_t.json",
+      "count": 66,
+      "type": "word"
+    },
+    {
+      "name": "jiJiao6-1",
+      "fileName": "jiJiao6-1.json",
+      "count": 66,
+      "type": "word"
+    },
+    {
+      "name": "PEPXiaoXue3_1_T",
+      "fileName": "PEPXiaoXue3_1_T.json",
+      "count": 64,
+      "type": "word"
+    },
+    {
+      "name": "WaiYanSheChuZhong_6-Volume-top",
+      "fileName": "WaiYanSheChuZhong_6-Volume-top.json",
+      "count": 61,
+      "type": "word"
+    },
+    {
+      "name": "Top60Pronouns",
+      "fileName": "Top60Pronouns.json",
+      "count": 59,
+      "type": "word"
+    },
+    {
+      "name": "PEP_SL_XiaoXue2_2_t",
+      "fileName": "PEP_SL_XiaoXue2_2_t.json",
+      "count": 55,
+      "type": "word"
+    },
+    {
+      "name": "PEP_SL_XiaoXue2_1_t",
+      "fileName": "PEP_SL_XiaoXue2_1_t.json",
+      "count": 54,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day11",
+      "fileName": "IELTS-listening-18days-day11.json",
+      "count": 52,
+      "type": "word"
+    },
+    {
+      "name": "PEP_SL_XiaoXue1_1_t",
+      "fileName": "PEP_SL_XiaoXue1_1_t.json",
+      "count": 52,
+      "type": "word"
+    },
+    {
+      "name": "jiJiao6-2",
+      "fileName": "jiJiao6-2.json",
+      "count": 51,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task13",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task13.json",
+      "count": 49,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day17",
+      "fileName": "IELTS-listening-18days-day17.json",
+      "count": 46,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task14",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task14.json",
+      "count": 46,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task9",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task9.json",
+      "count": 46,
+      "type": "word"
+    },
+    {
+      "name": "Top50Prepositions",
+      "fileName": "Top50Prepositions.json",
+      "count": 46,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task12",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task12.json",
+      "count": 45,
+      "type": "word"
+    },
+    {
+      "name": "PEP_SL_XiaoXue1_2_t",
+      "fileName": "PEP_SL_XiaoXue1_2_t.json",
+      "count": 45,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task1",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task1.json",
+      "count": 44,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task10",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task10.json",
+      "count": 44,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task16",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task16.json",
+      "count": 42,
+      "type": "word"
+    },
+    {
+      "name": "PEP_SL_XiaoXue6_2_t",
+      "fileName": "PEP_SL_XiaoXue6_2_t.json",
+      "count": 41,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task7",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task7.json",
+      "count": 39,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task5",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task5.json",
+      "count": 38,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task18",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task18.json",
+      "count": 37,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task11",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task11.json",
+      "count": 36,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-18days-day10",
+      "fileName": "IELTS-listening-18days-day10.json",
+      "count": 33,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task2",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task2.json",
+      "count": 33,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task3",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task3.json",
+      "count": 33,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task4",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task4.json",
+      "count": 33,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task6",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task6.json",
+      "count": 33,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task8",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task8.json",
+      "count": 32,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task15",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task15.json",
+      "count": 29,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task19",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task19.json",
+      "count": 26,
+      "type": "word"
+    },
+    {
+      "name": "IELTS-listening-NewOrientalDirect-Task17",
+      "fileName": "IELTS-listening-NewOrientalDirect-Task17.json",
+      "count": 22,
+      "type": "word"
+    }
+  ],
+  "wordByCategory": {
+    "其他": {
+      "count": 40,
+      "wordCount": 78977,
+      "dicts": [
+        {
+          "name": "gre-ciyileiji",
+          "count": 8785
+        },
+        {
+          "name": "xinghuoqiaoji_6",
+          "count": 7520
+        },
+        {
+          "name": "DanCiDeMimi_1",
+          "count": 5657
+        },
+        {
+          "name": "hongbaoshu-2026",
+          "count": 4858
+        },
+        {
+          "name": "English_II",
+          "count": 4559
+        },
+        {
+          "name": "ielts-807",
+          "count": 4340
+        },
+        {
+          "name": "Level4luan_2_T",
+          "count": 4025
+        },
+        {
+          "name": "DanCiDeMimi_2",
+          "count": 3827
+        },
+        {
+          "name": "zhuan-cha-ben",
+          "count": 3216
+        },
+        {
+          "name": "xinghuoqiaoji_4",
+          "count": 2522
+        },
+        {
+          "name": "kaoyanshanguo2025",
+          "count": 2257
+        },
+        {
+          "name": "DanCiDeJianFa_4",
+          "count": 1957
+        },
+        {
+          "name": "DanCiDeJianFa_6",
+          "count": 1949
+        },
+        {
+          "name": "pet-vacabulary-list-2024",
+          "count": 1871
+        },
+        {
+          "name": "beijing_junior_high_school",
+          "count": 1844
+        },
+        {
+          "name": "itVocabulary",
+          "count": 1665
+        },
+        {
+          "name": "voa",
+          "count": 1505
+        },
+        {
+          "name": "frequently_used_word03",
+          "count": 1435
+        },
+        {
+          "name": "Duolingo_Vocabulary_B2",
+          "count": 1423
+        },
+        {
+          "name": "Cambridge_JOIN_IN",
+          "count": 1350
+        },
+        {
+          "name": "Duolingo_Vocabulary_C1",
+          "count": 1314
+        },
+        {
+          "name": "ket2021",
+          "count": 1147
+        },
+        {
+          "name": "frequently_used_word02",
+          "count": 1040
+        },
+        {
+          "name": "2024HongBao_T1",
+          "count": 997
+        },
+        {
+          "name": "926",
+          "count": 926
+        },
+        {
+          "name": "2024HongBao_T2",
+          "count": 854
+        },
+        {
+          "name": "Duolingo_Vocabulary_B1",
+          "count": 801
+        },
+        {
+          "name": "ielts-real-1",
+          "count": 737
+        },
+        {
+          "name": "gaokao-yuedu-gaopin",
+          "count": 688
+        },
+        {
+          "name": "frequently_used_word01",
+          "count": 679
+        },
+        {
+          "name": "tingshuokaoshi",
+          "count": 556
+        },
+        {
+          "name": "ielts-real-high",
+          "count": 524
+        },
+        {
+          "name": "ielts-real-2",
+          "count": 402
+        },
+        {
+          "name": "YiLin_2",
+          "count": 297
+        },
+        {
+          "name": "YiLin_3",
+          "count": 295
+        },
+        {
+          "name": "YiLin_1",
+          "count": 276
+        },
+        {
+          "name": "ielts-real-3",
+          "count": 256
+        },
+        {
+          "name": "ReadingExplorer3",
+          "count": 239
+        },
+        {
+          "name": "ielts-real-4",
+          "count": 201
+        },
+        {
+          "name": "ielts-real-5",
+          "count": 183
+        }
+      ]
+    },
+    "高考/考研": {
+      "count": 7,
+      "wordCount": 22767,
+      "dicts": [
+        {
+          "name": "2025KaoYanHongBaoShu",
+          "count": 6705
+        },
+        {
+          "name": "GaoKao_3500",
+          "count": 3893
+        },
+        {
+          "name": "KaoYan_2024",
+          "count": 3731
+        },
+        {
+          "name": "KaoYan_3_T",
+          "count": 3728
+        },
+        {
+          "name": "ZhongKaoHeXin",
+          "count": 2140
+        },
+        {
+          "name": "KaoYanShanGuo_2023",
+          "count": 1771
+        },
+        {
+          "name": "GaoKaoZhenTiHeXinGaoPin",
+          "count": 799
+        }
+      ]
+    },
+    "词汇学习": {
+      "count": 17,
+      "wordCount": 31451,
+      "dicts": [
+        {
+          "name": "Macmillan7000",
+          "count": 6268
+        },
+        {
+          "name": "Oxford5000",
+          "count": 5836
+        },
+        {
+          "name": "4000_Essential_English_Words-meaning",
+          "count": 3600
+        },
+        {
+          "name": "Longman_Communication_3000",
+          "count": 3168
+        },
+        {
+          "name": "3000_ClassRoom_English_Words",
+          "count": 2991
+        },
+        {
+          "name": "top2000words",
+          "count": 1867
+        },
+        {
+          "name": "Top1500NounWords",
+          "count": 1525
+        },
+        {
+          "name": "Oxford3000",
+          "count": 1342
+        },
+        {
+          "name": "OxfordVocabulary_juniorMiddleSH",
+          "count": 1270
+        },
+        {
+          "name": "Merriam_Webster_sVocabularyBuilder",
+          "count": 1191
+        },
+        {
+          "name": "Top1000VerbWords",
+          "count": 1011
+        },
+        {
+          "name": "Top500AdjectiveWords",
+          "count": 527
+        },
+        {
+          "name": "word_roots1",
+          "count": 369
+        },
+        {
+          "name": "Top250AdverbWords",
+          "count": 255
+        },
+        {
+          "name": "suffix_word",
+          "count": 126
+        },
+        {
+          "name": "Top60Pronouns",
+          "count": 59
+        },
+        {
+          "name": "Top50Prepositions",
+          "count": 46
+        }
+      ]
+    },
+    "新概念英语": {
+      "count": 9,
+      "wordCount": 10819,
+      "dicts": [
+        {
+          "name": "4000_Essential_English_Words-sentence",
+          "count": 3600
+        },
+        {
+          "name": "nce-new-3",
+          "count": 1062
+        },
+        {
+          "name": "NCE_3",
+          "count": 1052
+        },
+        {
+          "name": "nce-new-1",
+          "count": 908
+        },
+        {
+          "name": "NCE_1",
+          "count": 900
+        },
+        {
+          "name": "nce-new-2",
+          "count": 862
+        },
+        {
+          "name": "NCE_2",
+          "count": 858
+        },
+        {
+          "name": "nce-new-4",
+          "count": 793
+        },
+        {
+          "name": "NCE_4",
+          "count": 784
+        }
+      ]
+    },
+    "考试类": {
+      "count": 81,
+      "wordCount": 118793,
+      "dicts": [
+        {
+          "name": "IELTS_disorder",
+          "count": 9389
+        },
+        {
+          "name": "IELTS_order",
+          "count": 9389
+        },
+        {
+          "name": "GRE_3_T",
+          "count": 6515
+        },
+        {
+          "name": "IELTS_XDF_7000",
+          "count": 5567
+        },
+        {
+          "name": "SAT_3_T",
+          "count": 4464
+        },
+        {
+          "name": "PETS3-2023",
+          "count": 4449
+        },
+        {
+          "name": "TOEFL_3_T",
+          "count": 4264
+        },
+        {
+          "name": "TOEFL_ZhangHongYan",
+          "count": 4032
+        },
+        {
+          "name": "IELTSVocabularyBible",
+          "count": 3673
+        },
+        {
+          "name": "IELTS_3_T",
+          "count": 3575
+        },
+        {
+          "name": "PTE_senior",
+          "count": 3170
+        },
+        {
+          "name": "PTE_Advanced_apeuni",
+          "count": 3169
+        },
+        {
+          "name": "GMAT_3_T",
+          "count": 3047
+        },
+        {
+          "name": "GRE3000_3_T",
+          "count": 3041
+        },
+        {
+          "name": "ZaiYaoNiMing_GRE3000",
+          "count": 3041
+        },
+        {
+          "name": "BEC_3_T",
+          "count": 2825
+        },
+        {
+          "name": "BEC_2_T",
+          "count": 2753
+        },
+        {
+          "name": "SATen",
+          "count": 2681
+        },
+        {
+          "name": "PTE_Basic_apeuni",
+          "count": 2652
+        },
+        {
+          "name": "PTE_junior",
+          "count": 2651
+        },
+        {
+          "name": "DuckCircle_IELTS",
+          "count": 2644
+        },
+        {
+          "name": "CET4_T",
+          "count": 2607
+        },
+        {
+          "name": "HeQiong_IELTS",
+          "count": 2529
+        },
+        {
+          "name": "CET6_T",
+          "count": 2345
+        },
+        {
+          "name": "PETS_3",
+          "count": 1942
+        },
+        {
+          "name": "IELTSKingLu807",
+          "count": 1916
+        },
+        {
+          "name": "IELTS_WANG_11",
+          "count": 1738
+        },
+        {
+          "name": "TOEIC",
+          "count": 1694
+        },
+        {
+          "name": "IELTS_WANG_5",
+          "count": 1569
+        },
+        {
+          "name": "GRE_1500",
+          "count": 1533
+        },
+        {
+          "name": "GRE-computer-based-test",
+          "count": 1451
+        },
+        {
+          "name": "PTE_FIB_R_senior",
+          "count": 1272
+        },
+        {
+          "name": "PTE_WFD",
+          "count": 1212
+        },
+        {
+          "name": "IELTS_tinglichangjing",
+          "count": 1204
+        },
+        {
+          "name": "IELTS_WANG_3",
+          "count": 1135
+        },
+        {
+          "name": "PTE_FIB_R_junior",
+          "count": 941
+        },
+        {
+          "name": "IELTS-oral-900",
+          "count": 900
+        },
+        {
+          "name": "GRE_equivalent",
+          "count": 827
+        },
+        {
+          "name": "PTE_Listening_apeuni",
+          "count": 674
+        },
+        {
+          "name": "PTE_FIB_L",
+          "count": 646
+        },
+        {
+          "name": "PTE_Read_apeuni",
+          "count": 630
+        },
+        {
+          "name": "Common-Phrases-FCE-Unofficial",
+          "count": 438
+        },
+        {
+          "name": "IELTS_WANG_4",
+          "count": 346
+        },
+        {
+          "name": "Common-Phrases-PTE-Unofficial",
+          "count": 274
+        },
+        {
+          "name": "IELTS-listening-18days-day13",
+          "count": 78
+        },
+        {
+          "name": "IELTS-listening-18days-day12",
+          "count": 77
+        },
+        {
+          "name": "IELTS-listening-18days-day15",
+          "count": 77
+        },
+        {
+          "name": "IELTS-listening-18days-day16",
+          "count": 77
+        },
+        {
+          "name": "IELTS-listening-18days-day2",
+          "count": 77
+        },
+        {
+          "name": "IELTS-listening-18days-day3",
+          "count": 77
+        },
+        {
+          "name": "IELTS-listening-18days-day6",
+          "count": 77
+        },
+        {
+          "name": "IELTS-listening-18days-day14",
+          "count": 76
+        },
+        {
+          "name": "IELTS-listening-18days-day18",
+          "count": 76
+        },
+        {
+          "name": "IELTS-listening-18days-day5",
+          "count": 76
+        },
+        {
+          "name": "IELTS-listening-18days-day9",
+          "count": 76
+        },
+        {
+          "name": "IELTS-listening-18days-day7",
+          "count": 75
+        },
+        {
+          "name": "IELTS-listening-18days-day8",
+          "count": 75
+        },
+        {
+          "name": "IELTS-listening-18days-day1",
+          "count": 74
+        },
+        {
+          "name": "IELTS-listening-18days-day4",
+          "count": 73
+        },
+        {
+          "name": "IELTS-listening-18days-day11",
+          "count": 52
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task13",
+          "count": 49
+        },
+        {
+          "name": "IELTS-listening-18days-day17",
+          "count": 46
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task14",
+          "count": 46
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task9",
+          "count": 46
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task12",
+          "count": 45
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task1",
+          "count": 44
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task10",
+          "count": 44
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task16",
+          "count": 42
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task7",
+          "count": 39
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task5",
+          "count": 38
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task18",
+          "count": 37
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task11",
+          "count": 36
+        },
+        {
+          "name": "IELTS-listening-18days-day10",
+          "count": 33
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task2",
+          "count": 33
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task3",
+          "count": 33
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task4",
+          "count": 33
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task6",
+          "count": 33
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task8",
+          "count": 32
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task15",
+          "count": 29
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task19",
+          "count": 26
+        },
+        {
+          "name": "IELTS-listening-NewOrientalDirect-Task17",
+          "count": 22
+        }
+      ]
+    },
+    "中小学教材": {
+      "count": 91,
+      "wordCount": 20405,
+      "dicts": [
+        {
+          "name": "jiJiao9",
+          "count": 636
+        },
+        {
+          "name": "WaiYanSheChuZhong_1_T",
+          "count": 629
+        },
+        {
+          "name": "jiJiao7-1",
+          "count": 561
+        },
+        {
+          "name": "PEPChuZhong9_1_T",
+          "count": 551
+        },
+        {
+          "name": "jiJiao7-2",
+          "count": 514
+        },
+        {
+          "name": "PEPChuZhong7_2_T",
+          "count": 492
+        },
+        {
+          "name": "jiJiao8-2",
+          "count": 487
+        },
+        {
+          "name": "PEPChuZhong8_2_T",
+          "count": 466
+        },
+        {
+          "name": "WaiYanSheChuZhong_2_T",
+          "count": 438
+        },
+        {
+          "name": "PEPGaoZhong_8_T",
+          "count": 420
+        },
+        {
+          "name": "jiJiao8-1",
+          "count": 420
+        },
+        {
+          "name": "PEPChuZhong8_1_T",
+          "count": 419
+        },
+        {
+          "name": "WaiYanSheGaoZhong_1_T",
+          "count": 411
+        },
+        {
+          "name": "PEPChuZhong7_1_T",
+          "count": 392
+        },
+        {
+          "name": "PEPGaoZhong_6_T",
+          "count": 391
+        },
+        {
+          "name": "PEPGaoZhong_7_T",
+          "count": 384
+        },
+        {
+          "name": "WaiYanSheChuZhong_5_T",
+          "count": 381
+        },
+        {
+          "name": "PEPGaoZhong_3_T",
+          "count": 366
+        },
+        {
+          "name": "BeiShiGaoZhong_8_T",
+          "count": 364
+        },
+        {
+          "name": "PEPGaoZhong_10_T",
+          "count": 361
+        },
+        {
+          "name": "PEPGaoZhong_5_T",
+          "count": 357
+        },
+        {
+          "name": "PEPGaoZhong_9_T",
+          "count": 352
+        },
+        {
+          "name": "BeiShiGaoZhong_4_T",
+          "count": 336
+        },
+        {
+          "name": "BeiShiGaoZhong_7_T",
+          "count": 334
+        },
+        {
+          "name": "BeiShiGaoZhong_11_T",
+          "count": 330
+        },
+        {
+          "name": "BeiShiGaoZhong_5_T",
+          "count": 327
+        },
+        {
+          "name": "WaiYanSheChuZhong_3_T",
+          "count": 320
+        },
+        {
+          "name": "PEPGaoZhong_2_T",
+          "count": 319
+        },
+        {
+          "name": "PEPGaoZhong_1_T",
+          "count": 311
+        },
+        {
+          "name": "PEPGaoZhong_11_T",
+          "count": 309
+        },
+        {
+          "name": "PEPGaoZhong_4_T",
+          "count": 307
+        },
+        {
+          "name": "Newwaiyan7-2",
+          "count": 305
+        },
+        {
+          "name": "BeiShiGaoZhong_9_T",
+          "count": 299
+        },
+        {
+          "name": "BeiShiGaoZhong_3_T",
+          "count": 295
+        },
+        {
+          "name": "Newwaiyan7-1",
+          "count": 294
+        },
+        {
+          "name": "shanghai-6-2-word",
+          "count": 274
+        },
+        {
+          "name": "WaiYanSheGaoZhong_2_T",
+          "count": 272
+        },
+        {
+          "name": "BeiShiGaoZhong_6_T",
+          "count": 271
+        },
+        {
+          "name": "BeiShiGaoZhong_10_T",
+          "count": 267
+        },
+        {
+          "name": "WaiYanSheChuZhong_4_T",
+          "count": 266
+        },
+        {
+          "name": "BeiShiGaoZhong_2_T",
+          "count": 244
+        },
+        {
+          "name": "BeiShiGaoZhong_1_T",
+          "count": 226
+        },
+        {
+          "name": "PEPXiaoXue5_2_T",
+          "count": 156
+        },
+        {
+          "name": "waiyan-xin-3-2",
+          "count": 156
+        },
+        {
+          "name": "waiyan-xin-5-1",
+          "count": 152
+        },
+        {
+          "name": "waiyan-xin-5-2",
+          "count": 147
+        },
+        {
+          "name": "waiyan-xin-4-1",
+          "count": 144
+        },
+        {
+          "name": "WaiYanSheChuZhong_1-Volume-up",
+          "count": 138
+        },
+        {
+          "name": "waiyan-xin-3-1",
+          "count": 134
+        },
+        {
+          "name": "waiyan-xin-4-2",
+          "count": 134
+        },
+        {
+          "name": "PEPXiaoXue5_1_T",
+          "count": 131
+        },
+        {
+          "name": "PEPXiaoXue6_1_T",
+          "count": 130
+        },
+        {
+          "name": "WaiYanSheChuZhong_6_T",
+          "count": 128
+        },
+        {
+          "name": "WaiYanSheChuZhong_1-Volume-down",
+          "count": 118
+        },
+        {
+          "name": "WaiYanSheChuZhong_2-Volume-top",
+          "count": 118
+        },
+        {
+          "name": "WaiYanSheChuZhong_4-Volume-top",
+          "count": 116
+        },
+        {
+          "name": "PEP_SL_XiaoXue4_1_t",
+          "count": 115
+        },
+        {
+          "name": "WaiYanSheChuZhong_2-Volume-down",
+          "count": 110
+        },
+        {
+          "name": "PEPXiaoXue6_2_T",
+          "count": 108
+        },
+        {
+          "name": "WaiYanSheChuZhong_3-Volume-down",
+          "count": 106
+        },
+        {
+          "name": "waiyan-xin-6-2",
+          "count": 105
+        },
+        {
+          "name": "PEPXiaoXue4_2_T",
+          "count": 104
+        },
+        {
+          "name": "PEP_SL_XiaoXue3_1_t",
+          "count": 103
+        },
+        {
+          "name": "PEP_SL_XiaoXue6_1_t",
+          "count": 102
+        },
+        {
+          "name": "PEP_SL_XiaoXue5_2_t",
+          "count": 96
+        },
+        {
+          "name": "jiJiao5-2",
+          "count": 96
+        },
+        {
+          "name": "WaiYanSheChuZhong_6-Volume-down",
+          "count": 91
+        },
+        {
+          "name": "PEP_SL_XiaoXue4_2_t",
+          "count": 87
+        },
+        {
+          "name": "PEPXiaoXue4_1_T",
+          "count": 84
+        },
+        {
+          "name": "PEP_SL_XiaoXue3_2_t",
+          "count": 84
+        },
+        {
+          "name": "jiJiao4-2",
+          "count": 84
+        },
+        {
+          "name": "waiyan-xin-6-1",
+          "count": 83
+        },
+        {
+          "name": "WaiYanSheChuZhong_3-Volume-top",
+          "count": 82
+        },
+        {
+          "name": "WaiYanSheChuZhong_5-Volume-top",
+          "count": 80
+        },
+        {
+          "name": "jiJiao5-1",
+          "count": 79
+        },
+        {
+          "name": "WaiYanSheChuZhong_4-Volume-down",
+          "count": 78
+        },
+        {
+          "name": "jiJiao4-1",
+          "count": 78
+        },
+        {
+          "name": "jiJiao3-2",
+          "count": 76
+        },
+        {
+          "name": "jiJiao3-1",
+          "count": 75
+        },
+        {
+          "name": "PEPXiaoXue3_2_T",
+          "count": 72
+        },
+        {
+          "name": "WaiYanSheChuZhong_5-Volume-down",
+          "count": 72
+        },
+        {
+          "name": "PEP_SL_XiaoXue5_1_t",
+          "count": 66
+        },
+        {
+          "name": "jiJiao6-1",
+          "count": 66
+        },
+        {
+          "name": "PEPXiaoXue3_1_T",
+          "count": 64
+        },
+        {
+          "name": "WaiYanSheChuZhong_6-Volume-top",
+          "count": 61
+        },
+        {
+          "name": "PEP_SL_XiaoXue2_2_t",
+          "count": 55
+        },
+        {
+          "name": "PEP_SL_XiaoXue2_1_t",
+          "count": 54
+        },
+        {
+          "name": "PEP_SL_XiaoXue1_1_t",
+          "count": 52
+        },
+        {
+          "name": "jiJiao6-2",
+          "count": 51
+        },
+        {
+          "name": "PEP_SL_XiaoXue1_2_t",
+          "count": 45
+        },
+        {
+          "name": "PEP_SL_XiaoXue6_2_t",
+          "count": 41
+        }
+      ]
+    },
+    "专业词汇": {
+      "count": 6,
+      "wordCount": 14873,
+      "dicts": [
+        {
+          "name": "self-study_English3",
+          "count": 4603
+        },
+        {
+          "name": "adult-self-study-examination",
+          "count": 3692
+        },
+        {
+          "name": "self-study_English2",
+          "count": 2181
+        },
+        {
+          "name": "self-study_English1",
+          "count": 1800
+        },
+        {
+          "name": "it-words",
+          "count": 1700
+        },
+        {
+          "name": "xueshiyingyu",
+          "count": 897
+        }
+      ]
+    }
+  }
+}

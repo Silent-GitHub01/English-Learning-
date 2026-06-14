@@ -1,0 +1,45 @@
+<!--pages/dict-detail/dict-detail.wxml - 词典详情-->
+<view class="page-container dict-detail-page {{_theme === 'dark' ? 'theme-dark' : ''}}">
+  <navigation-bar title="{{dictName}}" back="{{true}}" color="{{_theme === 'dark' ? 'white' : 'black'}}" background="{{_theme === 'dark' ? '#1E293B' : '#FFFFFF'}}">
+  </navigation-bar>
+
+  <view class="loading-container" wx:if="{{loading}}">
+    <view class="loading-spinner"></view>
+    <text class="loading-text">加载中...</text>
+  </view>
+
+  <!-- 词典信息 -->
+  <view class="dict-info-card" wx:if="{{!loading}}">
+    <text class="dict-detail-name">{{dictName}}</text>
+    <view class="dict-meta">
+      <text class="tag tag-primary">{{dictInfo.category}}</text>
+      <text class="dict-meta-text">{{dictInfo.length}} 个单词</text>
+    </view>
+    <text class="dict-detail-desc">{{dictInfo.description}}</text>
+  </view>
+
+  <!-- 快捷操作 -->
+  <view class="quick-actions-section" wx:if="{{!loading}}">
+    <button class="btn btn-primary btn-block" bindtap="onStartPractice">开始练习</button>
+  </view>
+
+  <!-- 章节列表 -->
+  <view class="chapters-section" hidden wx:if="{{!loading}}">
+    <text class="section-title">章节列表</text>
+    <view class="chapters-grid">
+      <view
+        class="chapter-item"
+        wx:for="{{chapters}}"
+        wx:key="index"
+        data-index="{{index}}"
+        bindtap="onTapChapter"
+      >
+        <text class="chapter-number">第{{index + 1}}章</text>
+        <text class="chapter-range">{{item.start}}-{{item.end}}词</text>
+        <text class="chapter-status" wx:if="{{completedChapters.indexOf(index) > -1}}">✓ 已完成</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="safe-bottom"></view>
+</view>

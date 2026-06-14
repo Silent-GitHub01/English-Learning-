@@ -1,0 +1,71 @@
+<!--pages/test/test.wxml - 单词4选1测试-->
+<view class="page-container test-page {{_theme === 'dark' ? 'theme-dark' : ''}}">
+  <navigation-bar title="单词测试" back="{{true}}" color="{{_theme === 'dark' ? 'white' : 'black'}}" background="{{_theme === 'dark' ? '#1E293B' : '#FFFFFF'}}">
+  </navigation-bar>
+
+  <view class="loading-container" wx:if="{{loading}}">
+    <view class="loading-spinner"></view>
+    <text class="loading-text">准备测试中...</text>
+  </view>
+
+  <!-- 测试头部 -->
+  <view class="test-header" wx:if="{{!loading && !finished}}">
+    <text class="test-progress">第 {{currentIndex + 1}} / {{totalQuestions}} 题</text>
+    <text class="test-score">正确: {{correctCount}}</text>
+  </view>
+
+  <!-- 进度条 -->
+  <view class="progress-bar-container" wx:if="{{!loading && !finished}}">
+    <view class="progress-bar-fill" style="width: {{(currentIndex / totalQuestions) * 100}}%"></view>
+  </view>
+
+  <!-- 题目 -->
+  <view class="test-content fade-in" wx:if="{{!loading && !finished}}">
+    <view class="question-card">
+      <text class="question-word">{{currentWord.name}}</text>
+      <text class="question-phonetic" wx:if="{{currentWord.usphone}}">[{{currentWord.usphone}}]</text>
+      <text class="question-play" bindtap="onPlayWord">🔊 发音</text>
+    </view>
+
+    <view class="options-list">
+      <view 
+        class="option-item {{option.selected ? (option.isCorrect ? 'option-correct' : 'option-wrong') : ''}}"
+        wx:for="{{options}}"
+        wx:key="index"
+        data-index="{{index}}"
+        bindtap="onSelectOption"
+      >
+        <view class="option-mark">{{optionLabels[index]}}</view>
+        <text class="option-text">{{item.cn}}</text>
+      </view>
+    </view>
+
+    <view class="next-btn-container" wx:if="{{answered}}">
+      <button class="btn btn-primary btn-block" bindtap="onNextQuestion">
+        {{currentIndex + 1 < totalQuestions ? '下一题' : '查看结果'}}
+      </button>
+    </view>
+  </view>
+
+  <!-- 完成结果 -->
+  <view class="test-result fade-in-up" wx:if="{{finished}}">
+    <view class="result-icon">{{accuracy >= 80 ? '🎉' : accuracy >= 60 ? '💪' : '📚'}}</view>
+    <text class="result-title">测试完成!</text>
+    
+    <view class="stats-grid">
+      <view class="stat-item">
+        <text class="stat-value">{{accuracy}}%</text>
+        <text class="stat-label">正确率</text>
+      </view>
+      <view class="stat-item">
+        <text class="stat-value">{{correctCount}}/{{totalQuestions}}</text>
+        <text class="stat-label">正确/总数</text>
+      </view>
+    </view>
+
+    <view class="result-actions">
+      <button class="btn btn-outline" bindtap="onRetry">重新测试</button>
+      <button class="btn btn-primary" bindtap="onBackHome">返回首页</button>
+    </view>
+  </view>
+</view>

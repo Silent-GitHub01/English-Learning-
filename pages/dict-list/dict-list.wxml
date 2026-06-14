@@ -1,0 +1,42 @@
+<!--pages/dict-list/dict-list.wxml - 词库浏览-->
+<view class="page-container dict-list-page {{_theme === 'dark' ? 'theme-dark' : ''}}">
+  <navigation-bar title="词库列表" back="{{true}}" color="{{_theme === 'dark' ? 'white' : 'black'}}" background="{{_theme === 'dark' ? '#1E293B' : '#FFFFFF'}}">
+  </navigation-bar>
+
+  <!-- 搜索 -->
+  <view class="search-bar">
+    <input class="search-input" placeholder="搜索词库..." value="{{searchText}}" bindinput="onSearchInput"/>
+  </view>
+
+  <!-- 分类列表 -->
+  <view class="dict-sections" wx:for="{{filteredCategories}}" wx:key="name">
+    <view class="section-header">
+      <text class="section-title">{{item.name}}</text>
+      <text class="section-count">{{item.dicts.length}}个</text>
+    </view>
+    <view class="dict-list">
+      <view 
+        class="dict-item fade-in-up" 
+        wx:for="{{item.dicts}}" 
+        wx:for-item="dict" 
+        wx:key="id"
+        data-dict="{{dict}}"
+        bindtap="onTapDict"
+      >
+        <view class="dict-info">
+          <text class="dict-name">{{dict.name}}</text>
+          <text class="dict-desc">{{dict.description}}</text>
+          <view class="dict-tags">
+            <text class="tag tag-primary" wx:for="{{dict.tags}}" wx:key="*this">{{item}}</text>
+          </view>
+        </view>
+        <view class="dict-action">
+          <text class="dict-length">{{dict.length}}词</text>
+          <text class="dict-arrow">→</text>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="safe-bottom"></view>
+</view>

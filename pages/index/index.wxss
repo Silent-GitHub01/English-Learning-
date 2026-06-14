@@ -1,0 +1,219 @@
+/* pages/index/index.wxss */
+.index-page {
+  min-height: 100vh;
+  background-color: var(--color-bg);
+}
+
+/* ===== 头部 ===== */
+.index-header {
+  padding: var(--spacing-lg) var(--spacing-lg) var(--spacing-md);
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark));
+  color: #FFFFFF;
+  margin: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-xl);
+}
+
+.header-title-row {
+  display: flex;
+  align-items: baseline;
+  gap: var(--spacing-sm);
+}
+
+.app-title {
+  font-size: var(--font-size-title);
+  font-weight: var(--font-weight-bold);
+}
+
+.app-subtitle {
+  font-size: var(--font-size-sm);
+  opacity: 0.8;
+}
+
+.app-desc {
+  display: block;
+  font-size: var(--font-size-sm);
+  opacity: 0.7;
+  margin-top: var(--spacing-xs);
+}
+
+.quick-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: var(--spacing-md);
+  padding-top: var(--spacing-md);
+  border-top: 2rpx solid rgba(255, 255, 255, 0.2);
+}
+
+.quick-stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quick-stat-value {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+}
+
+.quick-stat-label {
+  font-size: var(--font-size-xs);
+  opacity: 0.7;
+  margin-top: 4rpx;
+}
+
+/* ===== 卡片通用样式 ===== */
+.section-card {
+  margin: var(--spacing-md) var(--spacing-md) 0;
+  background-color: #FFFFFF;
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.06);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--spacing-sm);
+}
+
+/* 词库卡片：上下布局 */
+.dict-card-header {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.dict-title-row {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.dict-btn-row {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-md);
+}
+
+.card-icon {
+  font-size: 40rpx;
+}
+
+.card-title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-primary);
+}
+
+.card-hint {
+  display: block;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-tertiary);
+}
+
+.card-hint-top {
+  margin-bottom: var(--spacing-md);
+}
+
+/* 词库按钮行内等宽分布 */
+.dict-btn-row {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-md);
+}
+
+.dict-btn-row .btn-continue-learning,
+.dict-btn-row .btn-change-dict {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: auto !important;
+  min-width: auto !important;
+  white-space: nowrap;
+}
+
+.btn-select-dict {
+  font-size: var(--font-size-sm);
+  color: #FFFFFF;
+  background-color: var(--color-primary);
+  border-radius: var(--radius-md);
+  padding: 16rpx 40rpx;
+  line-height: 1.4;
+  margin: 0;
+  border: none;
+}
+
+.btn-select-dict::after {
+  border: none;
+}
+
+.btn-change-dict {
+  font-size: var(--font-size-sm);
+  color: #FFFFFF;
+  background-color: var(--color-primary);
+  border-radius: var(--radius-md);
+  padding: 12rpx 20rpx;
+  line-height: 1.4;
+  margin: 0;
+  border: none;
+}
+
+.btn-change-dict::after {
+  border: none;
+}
+
+.btn-continue-learning {
+  font-size: var(--font-size-sm);
+  color: #FFFFFF;
+  background-color: var(--color-success, #52c41a);
+  border-radius: var(--radius-md);
+  padding: 12rpx 20rpx;
+  line-height: 1.4;
+  margin: 0;
+  border: none;
+}
+
+.btn-continue-learning::after {
+  border: none;
+}
+
+.link-text {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-tertiary);
+  padding: 8rpx 16rpx;
+  background-color: var(--color-bg);
+  border-radius: var(--radius-md);
+}
+
+/* ===== 统计数据行 ===== */
+.stats-row {
+  display: flex;
+  justify-content: space-around;
+  padding: var(--spacing-sm) 0;
+}
+
+.stats-row-2 {
+  justify-content: center;
+  gap: 80rpx;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 120rpx;
+}
+
+.stat-value {
+  font-size: 56rpx;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-tertiary);
+  margin-top: 8rpx;
+}
