@@ -1,0 +1,25 @@
+# 参考项目源码（体积过大，含大量音频文件）
+TypeWords-master/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 微信开发者工具
+project.private.config.json
+
+# AI 工具缓存
+.codebuddy/
+
+# 依赖 / 构建
+node_modules/
+miniprogram_npm/
+
+# 日志
+*.log

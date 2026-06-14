@@ -1,12 +1,12 @@
 <!--pages/index/index.wxml - 首页/词库选择-->
 <view class="page-container index-page {{_theme === 'dark' ? 'theme-dark' : ''}}">
-  <navigation-bar title="TypeWords" back="{{false}}" color="{{_theme === 'dark' ? 'white' : 'black'}}" background="{{_theme === 'dark' ? '#1E293B' : '#FFFFFF'}}">
+  <navigation-bar title="Type Learning" back="{{false}}" color="{{_theme === 'dark' ? 'white' : 'black'}}" background="{{_theme === 'dark' ? '#1E293B' : '#FFFFFF'}}">
   </navigation-bar>
 
   <!-- 头部 -->
   <view class="index-header fade-in">
     <view class="header-title-row">
-      <text class="app-title">TypeWords</text>
+      <text class="app-title">Type Learning</text>
       <text class="app-subtitle">Qwerty Learner</text>
     </view>
     <text class="app-desc">键盘打字学英语，高效记忆单词</text>
